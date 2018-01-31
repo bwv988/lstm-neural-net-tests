@@ -1,0 +1,16 @@
+# Run the Kaggle Python container.
+
+version: "2"
+
+services:
+  kaggle:
+    image: kaggle/python
+    restart: always
+    container_name: kaggle
+    command: jupyter notebook --allow-root --no-browser --ip="0.0.0.0" --notebook-dir=/tmp/working --NotebookApp.token=''
+    user: root
+    ports:
+      - "28889:8888"
+    volumes:
+      - ./notebooks:/tmp/working
+      - ./data:/data
