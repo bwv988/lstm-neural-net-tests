@@ -1,21 +1,21 @@
 # Long Short-Term Memory Neural Networks and Time Series Data
 
-Quick explorations and two examples on applying LSTMs to time series data using Keras.
+Quick explorations on applying LSTMs to time series data using Keras.
 
 
 ## Quickstart
 
-### On Kaggle
+### Run and view on Kaggle
 
 https://www.kaggle.com/ternaryrealm/lstm-time-series-explorations-with-keras
 
-### On GitHub
+### View in GitHub
 
-Click on the `.ipynb` file.
+https://github.com/bwv988/lstm-neural-net-tests/blob/master/notebooks/notebook.ipynb
 
-### Run locally 
+### Run and edit locally 
 
-Run the notebook in the Kaggle Python container locally:
+This executes in Kaggle's Python container. Downloading the container will take some time. ;)
 
 ```bash
 docker-compose up
