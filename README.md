@@ -5,7 +5,7 @@ Quick explorations on applying LSTMs to time series data using Keras.
 
 ## Quickstart
 
-### Run and view on Kaggle
+### Run and fork on Kaggle
 
 https://www.kaggle.com/ternaryrealm/lstm-time-series-explorations-with-keras
 
