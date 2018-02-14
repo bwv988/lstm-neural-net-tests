@@ -1,7 +1,5 @@
-.ipynb_checkpoints/
+*.pdf
 *.tex
 *.html
 *_cache
 *connect
-
-
